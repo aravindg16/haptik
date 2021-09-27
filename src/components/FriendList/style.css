@@ -1,0 +1,50 @@
+.friendListWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 12px;
+	border-bottom: 1px solid #8080804d;
+}
+
+.iconContainer {
+	display: flex;
+	cursor: pointer;
+}
+
+.iconWrapper {
+	border: 1px solid #ff8c00;
+	display: flex;
+	padding: 6px 16px;
+	border-radius: 4px;
+}
+
+.nameWrapper {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.selected {
+	fill: #ff8c00;
+	stroke: #ff8c00;
+}
+
+.notSelected {
+	stroke: #ff8c00;
+	fill: #ffdfb74d;
+	stroke-width: 2px;
+}
+
+.deleteIcon {
+	margin-left: 16px;
+}
+
+.label {
+	color: #7d7d7d;
+	font-size: 12px;
+}
+
+.friendName {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}

@@ -1,0 +1,37 @@
+.paginationWrapper {
+	margin: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.actionButton {
+	background-color: #ff8c0d;
+	margin: 0px 12px;
+}
+
+.actionButton.disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.pageNumber {
+	border: 1px solid black;
+	border-radius: 50%;
+	min-width: 20px;
+	height: 20px;
+	padding: 6px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 4px;
+	cursor: pointer;
+}
+
+.selectedNumber {
+	color: white;
+	background-color: #ff8c0d;
+	border-color: #ff8c0d;
+	font-weight: bold;
+}

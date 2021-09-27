@@ -1,0 +1,29 @@
+.sortByWrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+	align-items: center;
+}
+
+.sortByOptionWrapper {
+	display: flex;
+	background-color: white;
+	border: 1px solid #ff8c0d;
+	margin-left: auto;
+}
+
+.sortOption {
+	padding: 8px;
+	color: #ff8c0d;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.selectedSortOption {
+	color: white;
+	background-color: #ff8c0d;
+}
+
+.lastOption {
+	border-left: 1px solid #ff8c0d;
+}

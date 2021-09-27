@@ -21,24 +21,29 @@
 		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
+		"extends": [ "react-app", "react-app/jest" ]
 	},
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
+		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
 	},
 	"devDependencies": {
 		"gh-pages": "^3.2.3"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/preset-env",
+				{
+					"modules": false
+				}
+			],
+			"@babel/preset-react"
+		],
+		"plugins": [
+			"@babel/plugin-syntax-dynamic-import",
+			"@babel/plugin-proposal-class-properties",
+			"react-hot-loader/babel"
+		]
 	}
 }
