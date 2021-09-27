@@ -131,7 +131,7 @@ const Friends = () => {
 		<div className="bodyWrapper">
 			<div>
 				<header className="headerWrapper">
-					<h3 className="header">Friends List</h3>
+					<h3 className="header">Friend List</h3>
 					<PlusIcon className="icon" onClick={() => setShowAddFriend(true)} />
 				</header>
 				<input
