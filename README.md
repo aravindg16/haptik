@@ -1,6 +1,11 @@
 # Getting Started
 Open [http://aravindg16.github.io/haptik](http://aravindg16.github.io/haptik) to view the deployed site it in the browser.
 
+# Quick walkthrough
+![Friend List](/public/images/screen1.png)
+![Add New Friend](/public/images/screen2.png)
+![Remove/Delete Friend](/public/images/screen3.png)
+
 ### Deployment
 
 Deployment was done in github pages
